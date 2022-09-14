@@ -1,5 +1,5 @@
-let x = 8;
-let y = 5;
-let area = x * y;
+const firstName = "Yerjan";
+const lastName = "Turarov";
+const fullName = firstName + " " + lastName;
 
-console.log(area);
+console.log(fullName);
