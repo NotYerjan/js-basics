@@ -1,7 +1,9 @@
-let hello = "Ciao"; // boolean
-let age = 18; // string
-let isGraduated = false; // number
+let hello = "Ciao"; // number
+let age = 18; // boolean
+let isGraduated = false; // string
 
-hello = true;
-age = "Home";
-isGraduated = 11;
+hello = 12;
+age = false;
+isGraduated = "true";
+
+console.log(hello, age, isGraduated);
