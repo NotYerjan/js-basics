@@ -1,9 +1,26 @@
-let hello = "Ciao"; // number
-let age = 18; // boolean
-let isGraduated = false; // string
+const name = "Mario";
+const lastname = "Rossi";
+const age = 27;
+const isGraduated = false;
+const average = 27;
+const examsCompleted = 10;
+const firstYearCompleted = true;
+const yearsCompleted = 1;
 
-hello = Number(hello);
-age = Boolean(age);
-isGraduated = String(isGraduated);
+// name == lastname; // false
+// age <= average; // true
+// firstYearCompleted == lastname; // true
+// yearsCompleted == firstYearCompleted; // true
+// firstYearCompleted === yearsCompleted; //false
+// examsCompleted < age; //false
+// isGraduated > yearsCompleted; // undefined
 
-console.log(hello, age, isGraduated);
+console.log(
+  name == lastname,
+  age <= average,
+  firstYearCompleted == lastname,
+  yearsCompleted == firstYearCompleted,
+  firstYearCompleted === yearsCompleted,
+  examsCompleted < age,
+  isGraduated > yearsCompleted
+);
