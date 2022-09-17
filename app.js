@@ -1,5 +1,10 @@
-function sayHelloName(name) {
-  console.log(`Hello ${name}`);
+function sayHelloName(callback) {
+  console.log(`Hello`);
+  callback();
 }
 
-sayHelloName("Yerjan");
+function printName() {
+  console.log("Yerjan");
+}
+
+sayHelloName(printName);
