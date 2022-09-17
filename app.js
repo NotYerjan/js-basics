@@ -1,7 +1,7 @@
-const age = 20;
+let number = 7;
 
-if (age >= 18) {
-  console.log("You can drive a car.");
-} else {
-  console.log("You are too young to drive.");
-}
+if (number > 0) {
+  console.log("The number is positive");
+} else console.log("The number is negative");
+
+console.log(number > 0 ? "The number is positive" : "The number is negative");
