@@ -1,3 +1,7 @@
-const age = 20;
-
-console.log(age >= 18 ? "You can drive a car." : "You are too young to drive.");
+const isSunnyDay = false;
+const isHomeworkCompleted = false;
+console.log(
+  isSunnyDay && isHomeworkCompleted
+    ? "Jesse can go out to play."
+    : "Jesse stays home."
+);
