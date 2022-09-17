@@ -1,8 +1,10 @@
-let name;
-let surname = "Rossi";
+let primitive = 5;
+let primitiveType = typeof primitive;
 
-if (name && surname) {
-  console.log(`${name} ${surname}`);
-} else {
-  console.log("Full name is invalid");
+if (primitiveType === "number") {
+  console.log(`data type of '${primitive}' is number`);
+} else if (primitiveType === "string") {
+  console.log(`data type of '${primitive}' is string`);
+} else if (primitiveType === "boolean") {
+  console.log(`data type of '${primitive}' is boolean`);
 }
