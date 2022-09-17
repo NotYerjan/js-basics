@@ -1,10 +1,2 @@
-function sayHelloName(callback) {
-  console.log(`Hello`);
-  callback();
-}
-
-function printName() {
-  console.log("Yerjan");
-}
-
-setTimeout(() => sayHelloName(printName), 1000);
+const sum = () => 5 + 5;
+console.log(sum());
