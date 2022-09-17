@@ -1,10 +1,7 @@
-let primitive = 5;
-let primitiveType = typeof primitive;
-
-if (primitiveType === "number") {
-  console.log(`data type of '${primitive}' is number`);
-} else if (primitiveType === "string") {
-  console.log(`data type of '${primitive}' is string`);
-} else if (primitiveType === "boolean") {
-  console.log(`data type of '${primitive}' is boolean`);
-}
+let password = "Hell0";
+let passLength = password.length;
+console.log(
+  4 <= passLength && passLength <= 6
+    ? " Password length is correct"
+    : "Password not valid"
+);
