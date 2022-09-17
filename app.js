@@ -1,8 +1,7 @@
-let isDoorClosed = true;
-let isDogOutside = false;
+let hello = "Ciao"; // boolean
+let age = 18; // string
+let isGraduated = false; // number
 
-if (isDoorClosed == true && isDogOutside == false) {
-  console.log("the dor is closed and the dog is inside");
-} else if (isDoorClosed == false && isDogOutside == true) {
-  console.log("The door is open and the dog is outside");
-} else console.log("Modify the variables values");
+hello = true;
+age = "Home";
+isGraduated = 11;
