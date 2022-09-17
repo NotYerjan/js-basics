@@ -1,7 +1,7 @@
-const firstYearCompleted = true;
-const yearsCompleted = 1;
-
-yearsCompleted == firstYearCompleted;
-// we check if they are equivalent in the different data type
-yearsCompleted === firstYearCompleted;
-// we check if they are equivalent in same same data type
+10 < 11;
+45 == 45;
+true === true;
+false === false;
+1 == true;
+4 <= 4;
+4 >= 2;
