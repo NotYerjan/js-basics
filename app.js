@@ -1,5 +1,5 @@
-let name = "Yerjan";
-function printName() {
-  console.log(name);
+function sayHelloName(name) {
+  console.log(`Hello ${name}`);
 }
-printName();
+
+sayHelloName("Yerjan");
