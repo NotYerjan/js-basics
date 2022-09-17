@@ -1,9 +1,11 @@
-let hello = "Ciao"; // number
-let age = 18; // boolean
-let isGraduated = false; // string
+let isTrue = true;
+console.log(isTrue, typeof isTrue);
 
-hello = 12;
-age = false;
-isGraduated = "true";
+isTrue = Number(isTrue);
+console.log(isTrue, typeof isTrue);
 
-console.log(hello, age, isGraduated);
+isTrue = String(isTrue);
+console.log(isTrue, typeof isTrue);
+
+isTrue = Boolean(isTrue);
+console.log(isTrue, typeof isTrue);
