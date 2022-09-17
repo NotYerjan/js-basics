@@ -1,3 +1,5 @@
-for (let i = 0; i >= -10; i--) {
-  console.log(i);
+let number = 1;
+while (number <= 10) {
+  console.log(number);
+  number++;
 }
