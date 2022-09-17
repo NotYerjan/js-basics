@@ -9,18 +9,8 @@ const yearsCompleted = 1;
 
 // name == lastname; // false
 // age <= average; // true
-// firstYearCompleted == lastname; // true
+// firstYearCompleted == lastname; // false
 // yearsCompleted == firstYearCompleted; // true
 // firstYearCompleted === yearsCompleted; //false
-// examsCompleted < age; //false
-// isGraduated > yearsCompleted; // undefined
-
-console.log(
-  name == lastname,
-  age <= average,
-  firstYearCompleted == lastname,
-  yearsCompleted == firstYearCompleted,
-  firstYearCompleted === yearsCompleted,
-  examsCompleted < age,
-  isGraduated > yearsCompleted
-);
+// examsCompleted < age; //true
+// isGraduated > yearsCompleted; // false
