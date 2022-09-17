@@ -1,6 +1,5 @@
-let sum = 0;
-for (let i = 0; i <= 10; i++) {
-  console.log(i);
-  sum += i;
+let name = "Yerjan";
+function printName() {
+  console.log(name);
 }
-console.log(sum);
+printName();
