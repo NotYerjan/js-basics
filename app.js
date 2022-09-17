@@ -7,4 +7,4 @@ function printName() {
   console.log("Yerjan");
 }
 
-sayHelloName(printName);
+setTimeout(() => sayHelloName(printName), 1000);
