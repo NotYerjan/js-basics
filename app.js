@@ -1,5 +1,5 @@
-let number = 1;
-while (number <= 10) {
-  console.log(number);
-  number++;
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
 }
