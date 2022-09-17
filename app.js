@@ -1,13 +1,13 @@
-let primitive = true;
+let roomType = "Basic Room";
 
-switch (typeof primitive) {
-  case "number":
-    console.log(`data type of '${primitive}' is number`);
+switch (roomType.toLowerCase()) {
+  case "basic room":
+    console.log(`50€`);
     break;
-  case "string":
-    console.log(`data type of '${primitive}' is string`);
+  case "junior suite room":
+    console.log(`80€`);
     break;
-  case "boolean":
-    console.log(`data type of '${primitive}' is boolean`);
+  case "master suite":
+    console.log(`100€`);
     break;
 }
