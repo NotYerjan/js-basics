@@ -1,9 +1,10 @@
-let sport = " Football";
-function canPlay() {
-  if (true) {
-    let personName = "Cosimo";
-    console.log(personName + sport);
-  }
-}
+function printName() {
+  let helloName = "Hello John";
 
-canPlay();
+  function inner() {
+    return helloName;
+  }
+
+  return inner;
+}
+console.log(printName()());
