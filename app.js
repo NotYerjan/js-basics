@@ -1,8 +1,11 @@
-let car = {
-  name: "Fiat",
-  color: "red",
+let user = {
+  name: "Cosimo",
+  age: 30,
 };
 
-for (const key in car) {
-  console.log(key);
-}
+let newUser = { ...user };
+
+newUser.name = "Paolo";
+
+console.log(newUser);
+console.log(user);
