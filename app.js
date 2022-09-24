@@ -1,6 +1,8 @@
 const students = [
-  { id: 01, name: "Mark", surname: "Krow", age: 27 },
-  { id: 02, name: "Olden", surname: "Grones", age: 24 },
-  { id: 03, name: "Atrey", surname: "Kinasawa", age: 32 },
+  { id: 1, name: "Luca", surname: "Rossi", age: 20 },
+  { id: 2, name: "Mario", surname: "Bianchi", age: 24 },
+  { id: 3, name: "Giovanni", surname: "Brambilla", age: 30 },
 ];
-console.log(students[0]);
+students.map((student) => {
+  console.log(student);
+});
