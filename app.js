@@ -3,7 +3,11 @@ let user = {
   age: 30,
 };
 
-let newUser = { ...user };
+let newUser = {};
+
+for (let key in user) {
+  newUser[key] = user[key];
+}
 
 newUser.name = "Paolo";
 
