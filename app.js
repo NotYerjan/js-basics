@@ -1,9 +1,6 @@
-function multiplyByTwo(value = 10) {
-  let number = 2;
-  function inner() {
-    return value * number;
-  }
-  return inner;
-}
+const car = {
+  name: "Renault",
+  color: "Red",
+};
 
-console.log(multiplyByTwo()());
+console.log(car.name, car.color);
