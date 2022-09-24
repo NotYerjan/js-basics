@@ -1,11 +1,11 @@
-let user = {
-  name: "Cosimo",
-  age: 30,
+const smartphone = {
+  brand: "Apple",
+  name: "Iphone 13",
+  price: 1300,
 };
 
-let newUser = { ...user };
+Object.freeze(smartphone);
 
-newUser.name = "Paolo";
+smartphone.price = 100;
 
-console.log(newUser);
-console.log(user);
+console.log(smartphone);
