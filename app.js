@@ -5,6 +5,7 @@ function printName() {
     return helloName;
   }
 
-  return inner;
+  console.log(inner());
 }
-console.log(printName()());
+
+setTimeout(printName, 1000);
