@@ -1,6 +1,8 @@
-const car = {
-  name: "Renault",
-  color: "Red",
+let car = {
+  name: "Fiat",
+  color: "red",
 };
 
-console.log(car.name, car.color);
+for (const key in car) {
+  console.log(key);
+}
