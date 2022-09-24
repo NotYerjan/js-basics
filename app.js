@@ -1,11 +1,10 @@
-const smartphone = {
-  brand: "Apple",
-  name: "Iphone 13",
-  price: 1300,
-};
+function Smartphone(brand, name, price) {
+  this.brand = brand;
+  this.name = name;
+  this.price = price;
+}
 
-Object.freeze(smartphone);
+const iphone = new Smartphone("Apple", "Iphone 13", 1300);
+const android = new Smartphone("Samsung", "Galaxy S22", 1200);
 
-smartphone.price = 100;
-
-console.log(smartphone);
+console.log(iphone, android);
