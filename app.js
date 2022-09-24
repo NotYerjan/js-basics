@@ -1,11 +1,9 @@
-function printName() {
-  let helloName = "Hello John";
-
+function multiplyByTwo(value = 10) {
+  let number = 2;
   function inner() {
-    return helloName;
+    return value * number;
   }
-
-  console.log(inner());
+  return inner;
 }
 
-setTimeout(printName, 1000);
+console.log(multiplyByTwo()());
