@@ -1,8 +1,6 @@
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-console.log(
-  numbers[0],
-  numbers[numbers.length - 1],
-  numbers.length,
-  numbers[20] // 21st element of the array is empty that's why the output will be undefined
-);
+const students = [
+  { id: 01, name: "Mark", surname: "Krow", age: 27 },
+  { id: 02, name: "Olden", surname: "Grones", age: 24 },
+  { id: 03, name: "Atrey", surname: "Kinasawa", age: 32 },
+];
+console.log(students[0]);
